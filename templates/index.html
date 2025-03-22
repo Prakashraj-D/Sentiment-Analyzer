@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sentiment Analyzer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h2>Sentiment Analysis Tool</h2>
+    <form action="/analyze" method="POST">
+        <textarea name="text" rows="5" cols="50" placeholder="Enter text here..." required></textarea><br>
+        <button type="submit">Analyze Sentiment</button>
+    </form>
+</body>
+</html>
