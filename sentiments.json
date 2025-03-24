@@ -33,5 +33,10 @@
         "text": "i am a boy",
         "sentiment": "Neutral",
         "score": 0.0
+    },
+    {
+        "text": "sorry its my fault",
+        "sentiment": "Negative",
+        "score": -0.4588
     }
 ]

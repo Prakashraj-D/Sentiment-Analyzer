@@ -1,9 +1,0 @@
-+ from flask import Flask, render_template, request, jsonify
-app.py: line 1: from: command not found
-+ import nltk
-+ from nltk.sentiment import SentimentIntensityAnalyzer
-app.py: line 3: from: command not found
-+ import json
-+ import os
-app.py: line 7: syntax error near unexpected token `'vader_lexicon''
-app.py: line 7: `nltk.download('vader_lexicon')'
